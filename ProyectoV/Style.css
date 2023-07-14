@@ -1,0 +1,214 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Estilos del encabezado */
+ 
+  header.inicio {
+    background-color: #f6eefd;
+    padding: 40px;
+    text-align: center;
+  }
+  
+
+  header.inicio p {
+    text-align: justify;
+    width: 50%;
+    margin: 0 auto;
+}
+
+  
+  /* Estilos de la sección de imágenes */
+
+
+.container{
+    display: flex;
+    width: 550px;
+    height: 330px;
+  }
+
+
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+    
+}
+section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+} 
+
+  /* Estilos generales */
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .columna {
+    flex: 1;
+    padding: 100px;
+  }
+ 
+  /* segundo estilo*/
+
+form {
+
+    width: 400px;
+    margin:0 auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    background-color: #f7f7f7;
+    
+    
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+ 
+  /* Estilos de la sección de contacto */
+  
+  
+  .columna{
+    text-align: center;
+    margin: auto;
+    max-width: 500px; 
+  }
+
+
+  /* Estilos de los botones de redes sociales */
+
+  .buttons {
+    margin: 40px;
+    box-sizing: content-box;
+
+    min-width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons a{
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #7c5d8a;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+}
+.buttons a:hover {
+    transform: scale(1.2);
+}
+  
+  /* Estilos del mapa */
+
+  #map { 
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #f7f7f7;
+  }
+  
+  #map iframe {
+    border: none;
+    width: 50%;
+    height: 100%;
+  }
+
+  footer {
+    background-color: #bdbaba;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .piedepagina {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  
+  
